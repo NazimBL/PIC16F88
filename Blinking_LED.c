@@ -1,7 +1,6 @@
 /*
- * File:   main.c
- * Author: DELL
- *
+ * Author: Nazim BL
+ * MPLAB X IDE
  * Created on 2 novembre 2016, 22:36
  */
 #include <xc.h>
@@ -24,6 +23,7 @@
 void main() {
         
     TRISB=0x00;
+    //config oscillator    
     OSCCON=0x72;
     OSCTUNE=0x1f;
     
