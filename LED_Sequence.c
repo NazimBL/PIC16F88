@@ -1,7 +1,6 @@
 /*
- * File:   main.c
  * Author: Nazim
- *
+ * MPLAB X IDE
  * Created on 29 juin 2017, 16:41
  */
 
@@ -41,7 +40,7 @@ void sequence_blink(int get) {
 
 void main(void) {
     
-	ANSEL=0;
+    ANSEL=0;
     TRISB=0x01;
     PORTB=0;
         
@@ -53,5 +52,4 @@ void main(void) {
         }
         else PORTB=0xff;  
     }
-    return;
 }
