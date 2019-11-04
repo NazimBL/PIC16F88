@@ -1,7 +1,6 @@
 /*
- * File:   main.c
- * Author: DELL
- *
+ * Author: Nazim BL
+ * MPLAB X IDE
  * Created on 30 juin 2017, 17:09
  */
 #pragma config FOSC = INTOSCCLK // Oscillator Selection bits (INTRC oscillator; CLKO function on RA6/OSC2/CLKO pin and port I/O function on RA7/OSC1/CLKI pin)
